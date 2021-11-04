@@ -16,12 +16,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // binding method
         bind();
-        buttonStart.setOnClickListener(v -> {
-            startService(new Intent(this, MyService.class));
-        });
-        buttonStop.setOnClickListener(v -> {
-            stopService(new Intent(this, MyService.class));
-        });
+        buttonStart.setOnClickListener(v -> startService(new Intent(this, MyService.class)));
+        buttonStop.setOnClickListener(v -> stopService(new Intent(this, MyService.class)));
         buttonNext.setOnClickListener(v -> {
             Intent intent = new Intent(this, NextActivity.class);
             startActivity(intent);

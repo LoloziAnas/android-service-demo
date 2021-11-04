@@ -12,7 +12,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="74dp"
-        android:text="Start Service" />
+        android:text="@string/start_service" />
 
     <Button
         android:id="@+id/buttonStop"
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Stop Service" />
+        android:text="@string/stop_service" />
 
     <Button
         android:id="@+id/buttonNext"
@@ -29,6 +29,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="63dp"
-        android:text="Next Page" />
+        android:text="@string/next_page" />
 
 </RelativeLayout>
